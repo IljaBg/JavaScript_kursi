@@ -1,2 +1,2 @@
 # JavaScript_kursi
-Kursa klade (Dialogs-AB)
+**Kursa klade (Dialogs-AB)**
