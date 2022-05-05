@@ -19,5 +19,7 @@ ASCII Tabulas piemērs:
 
 **Version Control System** - GitHub[^1]
 [^1]:GitHub.com  
+> Next steps:  
+> * jāuzstādā Visual Studio Code (darbs notiks VS Code aplikācijā).  
 
 Conclusion: :+1:  
