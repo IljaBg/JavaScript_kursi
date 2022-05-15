@@ -21,7 +21,7 @@ ASCII Tabulas piemērs:
 [^1]:GitHub.com  
 > Next steps:  
 - [x] jāuzstādā Visual Studio Code (darbs notiks VS Code aplikācijā);  
-- [ ] jāiedomājās kādu mājaslpau veidošu (~My Dream Webpage~);
+- [x] jāiedomājās kādu mājaslpau veidošu (~My Dream Webpage~);
 - [ ] jāatrod kādu mājaslapu es inspektēšu (*code inspect*).  
 
 Conclusion: :+1:  
