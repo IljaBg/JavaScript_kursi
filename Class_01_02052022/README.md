@@ -20,7 +20,8 @@ ASCII Tabulas piemērs:
 **Version Control System** - GitHub[^1]
 [^1]:GitHub.com  
 > Next steps:  
-- [x] jāuzstādā Visual Studio Code (darbs notiks VS Code aplikācijā);  
+- [x] jāuzstādā Visual Studio Code (darbs notiks VS Code aplikācijā);
+- [x] jāsinhronizē VS Code ar GitHub;  
 - [x] jāiedomājās kādu mājaslpau veidošu (~My Dream Webpage~);
 - [ ] jāatrod kādu mājaslapu es inspektēšu (*code inspect*).  
 
