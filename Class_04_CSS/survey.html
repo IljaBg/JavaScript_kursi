@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aptaujas lapa</title>
+        <link rel="shortcut icon" href="../images/html_icon.png">
+            <link rel="stylesheet" href="styles_css.css">
+    </head>
+<body>
+ <h1>Aptauja</h1>
+<form>
+    <div class="form-control">
+        <label for="fname">Vārds:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Uzvārds:</label><br>
+  <input type="text" id="lname" name="lname"></div>
+
+  <p style="font-weight: bold;">Jūsu programmēšanas līmenis:</p> 
+    <div class="form-control"><input type="radio" id="html" name="fav_language" value="HTML">
+        <label for="html">Iesācējs</label><br>
+        <input type="radio" id="css" name="fav_language" value="CSS">
+        <label for="css">Praktiķis</label><br>
+        <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+        <label for="javascript">Profesionālis</label></div></br>
+
+ <p style="font-weight: bold;"> Kādā valodā Jūs rakstat kodus?</p>
+<div class="form-control">
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+  <label for="vehicle1"> HTML</label><br>
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <label for="vehicle2"> CSS</label><br>
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <label for="vehicle3"> JavaScript</label>
+</div>
+
+<div class="form-control">
+    <label for="comment">
+        <p style="font-weight: bold;">Jūsu komentāri</p>
+    </label>
+
+    <!-- multi-line text input control -->
+    <textarea name="comment" id="comment"
+        placeholder="Ievādiet savu komentāru">
+    </textarea>
+</div>
+<button type="submit" value="submit">
+    <p style="font-weight: bold;"> Iesniegt </p>
+</button>
+</form>
+</body>
+</html>
