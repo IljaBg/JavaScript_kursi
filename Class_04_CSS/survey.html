@@ -10,9 +10,9 @@
 <form>
     <div class="form-control">
         <label for="fname">Vārds:</label><br>
-  <input type="text" id="fname" name="fname"><br>
+  <input type="text" id="fname" name="fname" placeholder="Jūsu vārds"><br>
   <label for="lname">Uzvārds:</label><br>
-  <input type="text" id="lname" name="lname"></div>
+  <input type="text" id="lname" name="lname" placeholder="Jūsu uzvārds"></div>
 
   <p style="font-weight: bold;">Jūsu programmēšanas līmenis:</p> 
     <div class="form-control"><input type="radio" id="html" name="fav_language" value="HTML">
@@ -24,11 +24,11 @@
 
  <p style="font-weight: bold;"> Kādā valodā Jūs rakstat kodus?</p>
 <div class="form-control">
-    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+    <input type="checkbox" id="vehicle1" name="vehicle1" value="HTML">
   <label for="vehicle1"> HTML</label><br>
-  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="CSS">
   <label for="vehicle2"> CSS</label><br>
-  <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+  <input type="checkbox" id="vehicle3" name="vehicle3" value="JavaScript">
   <label for="vehicle3"> JavaScript</label>
 </div>
 
@@ -37,13 +37,13 @@
         <p style="font-weight: bold;">Jūsu komentāri</p>
     </label>
 
-    <!-- multi-line text input control -->
-    <textarea name="comment" id="comment"
+        <textarea name="comment" id="comment"
         placeholder="Ievādiet savu komentāru">
     </textarea>
 </div>
 <button type="submit" value="submit">
     <p style="font-weight: bold;"> Iesniegt </p>
+    <i class="glyphicon glyphicon-envelope"></i>
 </button>
 </form>
 </body>

@@ -17,7 +17,8 @@ form {
     margin-bottom: 20px;
     border-style: double;
     border-width: 1px;
-    border-radius: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
     }
 
     .form-control label {
@@ -28,5 +29,6 @@ form {
  button {
      font-family: 'Times New Roman', Times, serif;
      background-color:azure;
-     font-size: 20px;
+     font-size: 10px;
+     
  }
