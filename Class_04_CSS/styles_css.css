@@ -13,7 +13,7 @@ form {
     }
 
 .form-control {
-     text-align: center;
+     text-align: left;
     margin-bottom: 20px;
     border-style: double;
     border-width: 1px;
@@ -27,4 +27,13 @@ form {
 
  button {
      font-family: 'Times New Roman', Times, serif;
+     background-color:azure;
+     font-size: 20px;
  }
+
+
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+    display: inline-block;
+    width: auto;
+}
