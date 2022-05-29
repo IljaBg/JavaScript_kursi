@@ -7,28 +7,35 @@ body {
 form {
     background-color: aquamarine;
     max-width: 500px;
-    margin: 20px auto;
-    padding: 30px 30px;
+    margin: 5px auto;
+    padding: 20px 20px;
     box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.5);
     }
 
 .form-control {
      text-align: left;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     border-style: double;
-    border-width: 1px;
+    border-width: 5px;
     border-radius: 5px;
     box-sizing: border-box;
+    
     }
 
     .form-control label {
         display: block;
         margin-bottom: 10px;
+        cursor: pointer;
     }
 
  button {
      font-family: 'Times New Roman', Times, serif;
      background-color:azure;
-     font-size: 10px;
-     
- }
+     font-size: 15px;
+     transition-duration: 0.4s;
+     cursor: pointer;
+      }
+button:hover {
+background-color: greenyellow;
+color: black;
+}
