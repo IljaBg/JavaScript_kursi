@@ -9,11 +9,29 @@
  <h1>Aptauja</h1>
 <form>
     <div class="form-control">
-        <label for="fname">Vārds:</label><br>
-  <input type="text" id="fname" name="fname" placeholder="Jūsu vārds"><br>
-  <br>
-  <label for="lname">Uzvārds:</label><br>
-  <input type="text" id="lname" name="lname" placeholder="Jūsu uzvārds"></div>
+        <label for="fname">Vārds:</label>
+    <input type="text" id="fname" name="fname" placeholder="Jūsu vārds"><br>
+<br>
+    <label for="lname">Uzvārds:</label>
+    <input type="text" id="lname" name="lname" placeholder="Jūsu uzvārds"><br>
+
+<br>
+    <label for="date">Jūsu dzimšanas datums:</label>
+    <input type="date" id="date" name="date"><br>
+
+<br>
+    <label for="files">Pievienojiet savu bildi:</label>
+    <input type="file" id="files" name="files" single><br>
+
+<br>
+    <label for="email">Jūsu e-pasts:</label>
+    <input type="email" id="email" name="email" autocomplete="on" placeholder="Norādiet savu e-pastu"><br>
+
+<br>
+    <label for="password"> Jūsu parole:</label>
+    <input type="password" id="password" name="password" minlength="8" autocomplete="off" placeholder="Norādiet savu paroli"><br><br>
+</div>
+
 
   <p style="font-weight: bold; font-size: 20px;">Jūsu programmēšanas līmenis:</p> 
     <div class="form-control"><input type="radio" id="html" name="fav_language" value="HTML">
@@ -21,7 +39,7 @@
         <input type="radio" id="css" name="fav_language" value="CSS">
         <label for="css">Praktiķis</label><br>
         <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-        <label for="javascript">Profesionālis</label></div></br>
+        <label for="javascript">Profesionālis</label></div>
 
 <p style="font-weight: bold; font-size: 20px;"> Kādā valodā Jūs rakstat kodus? </p> 
 <div class="form-control">
