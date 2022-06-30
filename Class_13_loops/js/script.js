@@ -52,6 +52,20 @@ for (let i = 1; i < 25; i++)
 }
 document.getElementById("automatic_count2").innerHTML = text1;
 
+// From Loop to Array
+let array = [];
+let test = "";
+for (let i = 1; i < 11; i++) {
+  if (i % 2 == 0) {
+    array.push(+i);
+  }
+}
+
+document.getElementById("masivs").innerHTML = "Pāra skaitļa masīvs - " + array;
+
+// Pārbaude
+document.getElementById("masivs2").innerHTML = "Masīva pirmais elements - " + array[0];
+
 /* text += cars[0] + "<br>";
 text = text + cars[0] + "<br>";
 
