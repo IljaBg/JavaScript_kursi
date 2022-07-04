@@ -54,7 +54,7 @@ document.getElementById("automatic_count2").innerHTML = text1;
 
 // From Loop to Array
 let array = [];
-let test = "";
+let test2 = "";
 for (let i = 1; i < 11; i++) {
   if (i % 2 == 0) {
     array.push(+i);
