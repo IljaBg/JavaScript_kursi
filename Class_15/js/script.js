@@ -59,3 +59,4 @@ for (let x of text5) {
     }
 }
 document.getElementById("text_analysis").innerHTML = "Šajā teikumā:<br> <b>" + text5 + "</b><br> ir " + derigu_vardu_skaits + " vārdi, kuru garums ir lielāks >= " + N;
+
