@@ -47,5 +47,9 @@ const factorial = function fac(n) {
   const cube = map(f, numbers);
   console.log(cube);
 
+// Piemērs ar ? :  ((min < 10) ? "0" : "")
+// min = 5. Tad :
+// 5 < 10 ir true -> tad jāliek "0" pie cipara -> 05. Ja (else) , tad būs tukša rinda - "".
+
   // Funkcijas piemērs
   
