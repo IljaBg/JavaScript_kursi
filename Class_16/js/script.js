@@ -21,6 +21,7 @@ console.log(y);
 const factorial = function fac(n) {
     return n < 2 ? 1 : n * fac(n - 1); // " : " tas pats kā if/else, izmanto, ja nav paredzēta zarošana
   }
+  // nosacījums ? true_darbības : false darbības;
   
   console.log(factorial(3));
   // 3 < 2 - false, tad 3-1 = 2; 2 <2 - false, tad 2-1=1; 1<2 - true;
