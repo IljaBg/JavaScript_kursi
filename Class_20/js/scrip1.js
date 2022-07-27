@@ -14,6 +14,7 @@ function Person(first, last, age, eye) {
   
   // The prototype property allows you to add new methods to objects constructors
   Person.prototype.nationality = "English";
+  
 
   // Display age
   document.getElementById("demo").innerHTML =
@@ -23,3 +24,4 @@ function Person(first, last, age, eye) {
     return `My fathers name is ${this.firstName} ${this.lastName} and he is ${this.age} 
     age old`;
   };
+  
