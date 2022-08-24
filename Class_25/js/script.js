@@ -1,4 +1,4 @@
-const firstChildNode = document.documentElement.firstChild;
+/* const firstChildNode = document.documentElement.firstChild;
 if (firstChildNode.nodeType !== Node.COMMENT_NODE) {
     console.warn("You should comment your code!");
     console.log(firstChildNode.nodeType);
@@ -51,4 +51,17 @@ console.log(document.firstChild.nextSibling.nodeValue);
 console.log("\n");
 console.log(document.lastChild.nodeType);
 console.log(document.lastChild.nodeName);
-console.log(document.lastChild.nodeValue);
+console.log(document.lastChild.nodeValue); */
+
+let btn = document.getElementById('btnRate');
+        let output = document.getElementById('output');
+
+        btn.addEventListener('click', () => {
+            let rates = document.getElementsByName('rate');
+            rates.forEach((rate) => {
+                if (rate.checked) {
+                    output.innerText = `You selected: ${rate.value}`;
+                }
+            });
+
+        });
