@@ -35,3 +35,10 @@ siblingText = siblings.map(e => e.innerHTML);
 console.log("siblings: ", siblings);
 console.log("children of parent: ",document.querySelector('.current').parentElement.children);
 console.log("siblings text: ", siblingText);
+
+
+let li = document.createElement('li');
+li.textContent = 'Extra Products';
+menu.appendChild(li);
+
+
