@@ -34,3 +34,6 @@ class Cookie {
       Cookie.set(name, '', new Date(0), path, domain, secure);
     }
   }
+
+  Cookie.set('username', 'admin');
+ 
