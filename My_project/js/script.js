@@ -1,4 +1,5 @@
-// (c) https://github.com/developedbyed/meditation-app
+// Piemērs no GitHub (c) https://github.com/developedbyed/meditation-app
+// repozitorijs izgūts, izmantojot git clone opciju
 
 const song = document.querySelector(".song");
 const play = document.querySelector(".play");
