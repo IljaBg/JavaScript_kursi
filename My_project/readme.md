@@ -7,4 +7,4 @@ Ievadlapa (index) + scripts (aptauja/īpašību izvēlne) - novērtēt ko tieši
 1) cik ir brīva laika?
 2) lietus-ūdens / pludmale-saule
 3) nogurums utt.
--> 
+-> izvērtē (ja - tad) un norāda rezultātu
