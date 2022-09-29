@@ -83,3 +83,19 @@ song.ontimeupdate = function() {
     video.pause();
   }
 };
+
+function hideFunction() {
+  var x = document.getElementById("playerDiv");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+  var x = document.getElementById("timeDiv");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+  
+}
