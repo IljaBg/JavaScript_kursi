@@ -37,11 +37,7 @@ if (typeof document !== "undefined") {
     ["5", "10", "20", "5 minūtes", "10 minūtes", "20 minūtes"],
     ["Pa jurmalu", "jurmala", "majas"],
     ["Paldies"],
-    ["is the refund possible"],
-    ["thank you"],
-    ["bye", "good bye", "goodbye", "see you later"],
-    [""],
-  ];
+    ];
   
   // Possible responses corresponding to triggers
   
