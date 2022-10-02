@@ -250,7 +250,7 @@ body, html {
   
   /* Mobile */
   
-  @media only screen and (max-width: 980px) {
+  /* @media only screen and (max-width: 980px) {
     .container {
       flex-direction: column;
       justify-content: flex-start;
@@ -259,4 +259,10 @@ body, html {
       width: 75vw;
       margin: 10vw;
     }
+  } */
+  @media only screen and (max-width: 1200px) {
+    .container {
+      display: flex;
+      position: relative;
+    } 
   }

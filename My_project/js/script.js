@@ -84,6 +84,8 @@ song.ontimeupdate = function() {
   }
 };
 
+// Paslēpt
+
 function hideFunction() {
   var x = document.getElementById("playerDiv");
   if (x.style.display === "none") {
